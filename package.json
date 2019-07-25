@@ -1,0 +1,43 @@
+{
+	"name": "@josherich/counter",
+	"version": "1.0.0",
+	"description": "Counter",
+	"license": "MIT",
+	"repository": "josherich/counter",
+	"author": {
+		"name": "Josh Erich",
+		"email": "josherichchen@gmail.com",
+		"url": "josherich.me"
+	},
+	"main": "dist",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"build": "rm -rf ./dist && tsc",
+		"test": "npx mocha -r ts-node/register ./test/*.spec.ts",
+		"prepublishOnly": "npm run build"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"counter",
+		"types",
+		"nlp"
+	],
+	"devDependencies": {
+		"@types/chai": "^4.1.7",
+		"@types/expect": "^1.20.4",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.6.8",
+		"@typescript-eslint/eslint-plugin": "^1.11.0",
+		"@typescript-eslint/parser": "^1.11.0",
+		"chai": "^4.2.0",
+		"mocha": "^6.2.0",
+		"ts-node": "^8.3.0",
+		"typescript": "^3.4.1"
+	},
+	"types": "dist",
+	"sideEffects": false
+}
