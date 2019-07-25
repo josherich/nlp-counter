@@ -1,4 +1,4 @@
-# Counter [![Build Status](https://travis-ci.org/josherich/counter.svg?branch=master)](https://travis-ci.org/josherich/counter)
+# Counter [![Build Status](https://travis-ci.com/josherich/counter.svg?branch=master)](https://travis-ci.com/josherich/counter)
 
 <img src="counting.gif" width="182" align="right">
 
