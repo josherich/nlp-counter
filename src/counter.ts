@@ -102,7 +102,7 @@ class Counter {
 
 	argMax(): string {
 		let keys = this.keys();
-		let maxKey = null;
+		let maxKey = "";
 		let maxCount = -1;
 		for (let key of keys) {
 			let count = this.getCount(key);

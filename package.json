@@ -1,11 +1,11 @@
 {
-	"name": "@josherich/counter",
+	"name": "nlp-counter",
 	"version": "1.0.0",
 	"description": "Counter",
 	"license": "MIT",
 	"repository": "josherich/counter",
 	"author": {
-		"name": "Josh Erich",
+		"name": "josherich",
 		"email": "josherichchen@gmail.com",
 		"url": "josherich.me"
 	},
