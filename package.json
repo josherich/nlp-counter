@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Counter",
 	"license": "MIT",
-	"repository": "josherich/counter",
+	"repository": "josherich/nlp-counter",
 	"author": {
 		"name": "josherich",
 		"email": "josherichchen@gmail.com",
