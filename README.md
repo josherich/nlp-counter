@@ -1,9 +1,11 @@
-# Counter [![Build Status](https://travis-ci.com/josherich/counter.svg?branch=master)](https://travis-ci.com/josherich/counter)
+# Counter [![Build Status](https://travis-ci.com/josherich/counter.svg?branch=master)](https://travis-ci.com/josherich/nlp-counter)
 
 <img src="counting.gif" width="182" align="right">
 
 ```js
-import Counter from 'counter';
+import Counter from 'nlp-counter';
+// or
+const Counter = require('nlp-counter');
 
 let words = ['the', 'the', 'the', 'the'];
 let counter = new Counter();
