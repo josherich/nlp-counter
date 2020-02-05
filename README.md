@@ -1,9 +1,11 @@
-# Counter [![Build Status](https://travis-ci.org/josherich/nlp-counter.svg?branch=master)](https://travis-ci.org/josherich/nlp-counter)
+# Counter [![Build Status](https://travis-ci.com/josherich/nlp-counter.svg?branch=master)](https://travis-ci.com/josherich/nlp-counter)
 
 <img src="counting.gif" width="182" align="right">
 
 ```js
 import Counter from 'counter';
+// or
+const Counter = require('nlp-counter');
 
 let words = ['the', 'the', 'the', 'the'];
 let counter = new Counter();
@@ -32,6 +34,7 @@ let counter = new Counter();
 let counter_another = new Counter();
 
 let text = `I am firm, You are obstinate, He is a pig-headed fool. I am righteously indignant, you are annoyed, he is making a fuss over nothing. I have reconsidered the matter, you have changed your mind, he has gone back on his word.`
+let tokenize = (txt) => txt.replace(/[,\.]+/g, '').split(' ')
 let words = tokenize(text);
 
 words.map(w => {

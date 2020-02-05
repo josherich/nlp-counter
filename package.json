@@ -1,6 +1,6 @@
 {
 	"name": "nlp-counter",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Counter",
 	"license": "MIT",
 	"repository": "josherich/nlp-counter",
@@ -15,7 +15,7 @@
 	},
 	"scripts": {
 		"build": "rm -rf ./dist && tsc",
-		"test": "npx mocha -r ts-node/register ./test/*.spec.ts",
+		"test": "npx mocha -r ./test/*.spec.ts",
 		"prepublishOnly": "npm run build"
 	},
 	"files": [
